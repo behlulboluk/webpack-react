@@ -1,0 +1,19 @@
+.Pagination {
+  margin: 50px auto;
+  text-align: center;
+}
+.Pagination-button {
+  text-align: center;
+  border: none;
+  border-radius: 16px;
+  background-color: #4997e5;
+  transition: background-color .2s;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  width: 44px;
+  height: 34px;
+}
+.Pagination-info {
+  font-size: 12px;
+}
