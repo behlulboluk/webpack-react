@@ -54,10 +54,10 @@ class List extends React.Component {
               <thead className="Table-head">
                 <tr>
                   <th>id</th>
-                  <th>yayinevi</th>
-                  <th>Ad</th>
-                  <th>yazar</th>
-                  <th>incele</th>
+                  <th>publisher</th>
+                  <th>name</th>
+                  <th>author</th>
+                  <th>view</th>
                 </tr>
               </thead>
               <tbody className="Table-body">
@@ -79,7 +79,7 @@ class List extends React.Component {
                         {books.yazar}
                       </td>
                       <td>
-                        <Link to={'/detail/' + books.id } style={{color: 'white'}}>İncele</Link>
+                        <Link to={'/detail/' + books.id } style={{color: 'white'}}>View</Link>
                       </td>
                     </tr>
                   ))}

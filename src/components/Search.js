@@ -69,7 +69,7 @@ class Search extends React.Component{
          <input
            className="Search-input"
            type="text"
-           placeholder="Ara"
+           placeholder="Search"
            onChange={this.handleChange}
            value={search}
          />

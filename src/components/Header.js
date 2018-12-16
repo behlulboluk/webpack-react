@@ -7,7 +7,9 @@ const Header = () => {
   return (
       <div className="Header">
         <Search />
-        <Link to={'/create'} style={{color: 'white'}}>Yeni Kayıt Oluştur</Link>
+        <button>
+          <Link to={'/create'} style={{color: 'black'}}>Create a new record</Link>
+        </button>
       </div>
   );
 }

@@ -42,8 +42,8 @@ class Detail extends React.Component {
             </div>
             <div >
               <h1>Id : { book.id }</h1>
-              <h1>Yazar : { book.yazar }</h1>
-              <h1>Yayınevi : { book.yayinevi }</h1>
+              <h1>author : { book.yazar }</h1>
+              <h1>publisher : { book.yayinevi }</h1>
               <Link to ="/" className="link">Go to homepage</Link>
             </div>
         </div>

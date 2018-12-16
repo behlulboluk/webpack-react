@@ -47,15 +47,15 @@ class Create extends React.Component{
           <h1 >Create</h1>
           <form onSubmit={this.handleSubmit} className="signup-form">
             <div>
-              <label>Ad:</label>
+              <label>name:</label>
               <input name="Ad" value={this.state.Ad} onChange={this.handleChange}/>
             </div>
             <div>
-              <label>yazar:</label>
+              <label>author:</label>
               <input name="yazar" value={this.state.yazar} onChange={this.handleChange}/>
             </div>
             <div>
-              <label>yayinevi:</label>
+              <label>publisher:</label>
               <input name="yayinevi" value={this.state.yayinevi} onChange={this.handleChange}/>
             </div>
             <div>
